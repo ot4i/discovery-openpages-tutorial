@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="ibmopenpages" policyName="IBMOpenPages1" policyTemplate="onprem_v1_basic">
+    <credentialName>CompletePolicyProjectIBMOpenPages_IBMOpenPages1</credentialName>
+    <applicationVersion>v1</applicationVersion>
+    <applicationType>onprem</applicationType>
+    <authenticationMethod>BASIC</authenticationMethod>
+    <endpointUrl>REPLACE_WITH_YOUR_ENDPOINT_URL</endpointUrl>
+    <instanceId>REPLACE_WITH_YOUR_INSTANCE_NAME</instanceId>
+  </policy>
+</policies>
