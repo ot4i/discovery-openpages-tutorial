@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "items": {
+    "type": "object",
+    "properties": {
+      "Resource_ID": {
+        "displayOrder": 3,
+        "title": "Resource ID",
+        "description": "Resource ID",
+        "type": "number"
+      },
+      "Comment": {
+        "displayOrder": 4,
+        "title": "Comment",
+        "description": "Version Comment",
+        "type": "string"
+      },
+      "Created_By": {
+        "displayOrder": 5,
+        "title": "Created By",
+        "description": "The name of the user who created this object. It is set by the application and cannot be edited.",
+        "type": "number"
+      },
+      "Creation_Date": {
+        "displayOrder": 6,
+        "title": "Creation Date",
+        "description": "The date and time this object was created. It is set by the application and cannot be edited.",
+        "type": "string",
+        "format": "date-time"
+      },
+      "Last_Modification_Date": {
+        "displayOrder": 8,
+        "title": "Last Modification Date",
+        "description": "The most recent date and time this object was changed. It is set by the application and cannot be edited.",
+        "type": "string",
+        "format": "date-time"
+      },
+      "Last_Modified_By": {
+        "displayOrder": 9,
+        "title": "Last Modified By",
+        "description": "The name of the last user who edited this object. It is set by the application and cannot be edited.",
+        "type": "number"
+      },
+      "Location": {
+        "displayOrder": 10,
+        "title": "Folder",
+        "description": "The path of this object within this object hierarchy. It cannot be edited after it is created.",
+        "type": "string"
+      },
+      "Name": {
+        "displayOrder": 11,
+        "title": "Name",
+        "description": "The name of this object.",
+        "type": "string"
+      },
+      "Orphan": {
+        "displayOrder": 12,
+        "title": "Orphan",
+        "description": "Displays the orphan status of the object.",
+        "type": "string"
+      },
+      "OPSS_AI_Actual_Completion_Date": {
+        "displayOrder": 13,
+        "title": "Actual Completion Date",
+        "description": "Use to record the date when the work on this action item was actually completed.",
+        "type": "string",
+        "format": "date-time"
+      },
+      "OPSS_AI_Additional_Description": {
+        "displayOrder": 14,
+        "title": "Additional Description",
+        "description": "Use to enter or edit additional information about this action item.",
+        "type": "string"
+      },
+      "OPSS_AI_Approve_Reject": {
+        "displayOrder": 15,
+        "title": "Approve / Reject",
+        "description": "Use to approve action item",
+        "enum": [
+          "Approve",
+          "Reject"
+        ],
+        "type": "string"
+      },
+      "OPSS_AI_Assignee": {
+        "displayOrder": 16,
+        "title": "Action Assignee",
+        "description": "Use to assign a person ownership or responsibility for this action item.",
+        "type": "string"
+      },
+      "OPSS_AI_Due_Date": {
+        "displayOrder": 17,
+        "title": "Due Date",
+        "description": "Use to indicate the date after which this issue action item is overdue.",
+        "type": "string",
+        "format": "date-time"
+      },
+      "OPSS_AI_Expected_Completion_Date": {
+        "displayOrder": 18,
+        "title": "Expected Completion Date",
+        "description": "Use to set the expected completion date for this action item.",
+        "type": "string",
+        "format": "date-time"
+      },
+      "OPSS_AI_Issue_Owner_for_Approval": {
+        "displayOrder": 19,
+        "title": "Issue Owner for Approval",
+        "description": "Use to capture the name of the expected approver for the closure of the action. If blank, this will be inherited from the parent issue.",
+        "type": "string"
+      },
+      "OPSS_AI_Percent_Complete": {
+        "displayOrder": 20,
+        "title": "Percent Complete",
+        "description": "Use to indicate the progress of this action item.  Enter a numeric value between 0 and 100.",
+        "type": "number"
+      },
+      "OPSS_AI_Start_Date": {
+        "displayOrder": 21,
+        "title": "Start Date",
+        "description": "Use to record the date when the work on this action item started.",
+        "type": "string",
+        "format": "date-time"
+      },
+      "OPSS_AI_Status": {
+        "displayOrder": 22,
+        "title": "Status",
+        "description": "Updated automatically by the system upon Submission for Approval and Acceptance Closure",
+        "enum": [
+          "Open",
+          "Awaiting Approval",
+          "Closed"
+        ],
+        "type": "string"
+      },
+      "OPSS_AI_Submit_for_Approval": {
+        "displayOrder": 23,
+        "title": "Submit for Approval",
+        "description": "Saving the Action with this field set to Yes will update the Status to Awating Approval",
+        "enum": [
+          "Yes",
+          "No"
+        ],
+        "type": "string"
+      }
+    },
+    "title": "SOXTask",
+    "additionalProperties": false
+  },
+  "type": "array",
+  "title": "SOXTask"
+}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policies>
-  <policy policyType="ibmopenpages" policyName="IBMOpenPages1" policyTemplate="onprem_v1_basic">
-    <credentialName>CompletePolicyProjectIBMOpenPages_IBMOpenPages1</credentialName>
+  <policy policyType="ibmopenpages" policyName="IBMOpenPageswithWatson1" policyTemplate="">
+    <credentialName>CompletePolicyProjectIBMOpenPages_IBMOpenPageswithWatson1</credentialName>
     <applicationVersion>v1</applicationVersion>
     <applicationType>onprem</applicationType>
     <authenticationMethod>BASIC</authenticationMethod>
